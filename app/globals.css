@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .profile-dropdown-link {
+    @apply flex flex-col hover:text-[#2f3ab2] hover:underline hover:bg-[#3b49df1a] rounded-md px-4 py-2
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
